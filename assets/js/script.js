@@ -38,5 +38,8 @@ async function getQuotes() {
     }
 }
 
+// EVENT LISTENERS
+newQuoteButton.addEventListener('click', getRandomQuote);
+
 // ON LOAD
 getQuotes();
