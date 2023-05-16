@@ -1,3 +1,9 @@
+const quoteContainer = document.getElementById('quote-container');
+const quoteText = document.getElementById('quote-text');
+const quoteAuthor = document.getElementById('author-text');
+const twitterButton = document.getElementById('twitter');
+const newQuoteButton = document.getElementById('new-quote');
+
 let apiQuotes = [];
 
 // GET RANDOM QUOTE
